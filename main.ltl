@@ -1,0 +1,15 @@
+// ltl-pratt-parse/main.ltl
+//
+// Pratt (TDOP) parser framework with precedence tables.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-pratt-parse v0.1.0")
+    io::println("Pratt (TDOP) parser framework with precedence tables.")
+    0
+}
