@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_pratt_parse
+
+import std::io
+use ltl_pratt_parse as lib
+
+fn main() {
+    io::println("ltl_pratt_parse demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
